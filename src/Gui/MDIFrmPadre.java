@@ -32,6 +32,7 @@ public class MDIFrmPadre extends javax.swing.JFrame {
         desktopPane = new javax.swing.JDesktopPane();
         jtoolbar1 = new javax.swing.JToolBar();
         btnDistrito = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         menuBar = new javax.swing.JMenuBar();
         fileMenu = new javax.swing.JMenu();
         openMenuItem = new javax.swing.JMenuItem();
@@ -61,6 +62,12 @@ public class MDIFrmPadre extends javax.swing.JFrame {
             }
         });
         jtoolbar1.add(btnDistrito);
+
+        jButton1.setText("Nuevo Menu");
+        jButton1.setFocusable(false);
+        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jtoolbar1.add(jButton1);
 
         desktopPane.add(jtoolbar1);
         jtoolbar1.setBounds(0, 0, 400, 30);
@@ -200,6 +207,7 @@ public class MDIFrmPadre extends javax.swing.JFrame {
     private javax.swing.JMenuItem exitMenuItem;
     private javax.swing.JMenu fileMenu;
     private javax.swing.JMenu helpMenu;
+    private javax.swing.JButton jButton1;
     private javax.swing.JToolBar jtoolbar1;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem openMenuItem;
