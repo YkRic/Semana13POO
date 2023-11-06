@@ -33,6 +33,8 @@ public class MDIFrmPadre extends javax.swing.JFrame {
         jtoolbar1 = new javax.swing.JToolBar();
         btnDistrito = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
         menuBar = new javax.swing.JMenuBar();
         fileMenu = new javax.swing.JMenu();
         openMenuItem = new javax.swing.JMenuItem();
@@ -71,6 +73,14 @@ public class MDIFrmPadre extends javax.swing.JFrame {
 
         desktopPane.add(jtoolbar1);
         jtoolbar1.setBounds(0, 0, 400, 30);
+
+        jLabel1.setText("jLabel1");
+        desktopPane.add(jLabel1);
+        jLabel1.setBounds(100, 110, 37, 16);
+
+        jButton2.setText("jButton2");
+        desktopPane.add(jButton2);
+        jButton2.setBounds(150, 150, 75, 22);
 
         fileMenu.setMnemonic('f');
         fileMenu.setText("File");
@@ -208,6 +218,8 @@ public class MDIFrmPadre extends javax.swing.JFrame {
     private javax.swing.JMenu fileMenu;
     private javax.swing.JMenu helpMenu;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JToolBar jtoolbar1;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem openMenuItem;
