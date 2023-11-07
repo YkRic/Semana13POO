@@ -8,12 +8,12 @@ package Gui;
  *
  * @author jpecho
  */
-public class IFrmDistrito extends javax.swing.JInternalFrame {
+public class IFrmAlumno extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form IFrmDistrito
      */
-    public IFrmDistrito() {
+    public IFrmAlumno() {
         initComponents();
     }
 
